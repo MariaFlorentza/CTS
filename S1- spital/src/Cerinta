@@ -1,0 +1,24 @@
+În cadrul unui spital, este permis accesul vizitatorilor doar dacă aceștia dețin o scrisoare de
+acceptare din partea medicului curent al pacientului vizitat. Suplimentar, odată cu apariția unui
+număr mare de cazuri de infectare cu virusul Covid, intrarea în spital este permisă doar dacă
+vizitatorii sunt echipați corespunzător cu haine de protecție oferite de spital. Astfel, când se
+strânge un număr de minim 5 vizitatori în sala de așteptare, personalul medical îi echipează pe
+vizitatori și le permite accesul în saloane pentru a vizita pacienții. Se dorește implementarea unui
+modul intermediar ce permite accesul în saloane conform noilor restricții impuse. Implementarea
+trebuie să țină cont de interfața ISpital primită.
+3p. Pattern-ul este testat în main() prin crearea unui număr de minim 7 vizitatori care doresc să intre
+în saloanele cu pacienți.
+---- OBSERVER (permite notificarea automată a obiectelor dependente atunci când starea subiectului se schimbă.)------
+
+
+9p. Soluția trebuie să permită gestionarea și prezentarea arborescentă a tulpinilor de virusuri
+existente în fiecare țară din fiecare continent de pe glob. Organizația mondială a sănătății
+stochează pentru fiecare țară în parte toate tulpinile de virusuri prezente în respectiva țară alături
+de numărul de cazuri identificate. Acțiunile permise asupra acestor entități sunt prezentate în
+interfața primită Virus. Entitățile din soluție conțin și cel putin 2 atribute specifice unui Virus.
+3p. Pattern-ul este testat în main() prin definirea și utilizarea unei structuri arborescente care să
+conțină minim 3 nivele cu minim 6 elemente. Trebuie implementat un nivel definit de
+continente, unul de țări iar ultimul de tulpinile de virusuri. Se dorește afișarea numărului total de
+cazuri de virusuri identificate în toate țările din cadrul arborescenței definite
+----COMPOSITE (construirea unei ierarhii de obiecte într-o structură arborescentă,
+astfel încât obiectele individuale și grupurile de obiecte să poată fi tratate în mod uniform.)------
