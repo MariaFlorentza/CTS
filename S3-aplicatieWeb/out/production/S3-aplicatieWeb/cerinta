@@ -1,0 +1,25 @@
+În cadrul unei aplicații web de tip comerț electronic, utilizatorul are opțiunea de a selecta tehnica
+de vizualizare a produselor (IProdus) din cadrul magazinului. Astfel, acesta poate opta între:
+afișare produse în ordine crescătoare preț, descrescătoare preț, afișare doar a produselor care
+au cel puțin o recenzie. Să se implementeze modulul ce permite integrarea acestei opțiuni de
+vizualizare a listei de produse ținându-se cont de faptul că, în timp, se pot adăuga noi tehnici de
+vizualizare puse la dispoziție de către dezvoltatorii web.
+3p. Să se testeze implementarea prin crearea unui utilizator și setarea a cel puțin 2 opțiuni de
+vizualizare a listei de produse din magazin.
+----STRATEGY (permite flexibilitate în alegerea tehnicii de vizualizare a produselor și
+permite adăugarea de noi tehnici de vizualizare în viitor, fără a modifica codul existent,
+ definirea unei familii de algoritmi, încapsularea fiecărui algoritm într-o clasă separată)----
+
+9p. S-a observat că, atunci când conexiunea la internet este slabă, încărcarea resurselor unei pagini
+web se realizează într-un timp foarte mare. Astfel, s-a luat decizia optimizării acestui proces prin
+crearea unei filtrări pe elementele încărcare. O pagină web este reprezentată de o listă de obiecte
+tip Item (paragrafe, imagini, etc). Filtrarea este formată din mai multe etape precum: eliminarea
+obiectelor tip imagine, schimbarea setărilor paragrafelor prin reducerea doar la culoare negru,
+fără alte setări precum bold, italic, etc. Se cunoaște faptul că aceste etape pot fi interschimbate
+și, de asemenea, că se pot adăuga filtrări suplimentare în cazul în care prezenta implementare
+nu atinge optimul dorit. Să se realizeze modulul ce implementează funcționalitățile dorite ținând
+cont de interfețele primite.
+3p. Pattern-ul este testat în main() prin definirea unui număr de minim 2 obiecte de tip pagină web
+și transformarea lor pe baza fluxului de filtrări propus
+---CHAIN RESPONSABILITY (permite să se construiască un lanț de obiecte care preiau și procesează o cerere
+în ordine până când aceasta este tratată complet)---
