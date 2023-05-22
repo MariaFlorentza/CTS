@@ -1,0 +1,22 @@
+. În cadrul restaurantului, clienții au posibilitatea de a alege unul din produsele disponibile în cadrul
+meniului său. Însă, de-a lungul timpului, s-a observat că există cereri suplimentare de selecție de
+produse cu specific spaniol și italienesc. Astfel, pentru fiecare produs disponibil în meniul
+restaurantului, atunci când este preparat, i se poate adăuga un topping suplimentar aferent
+specificului selectat. Selecția specificului culinar nu conduce la o modificare a prețului de bază a
+preparatului. Clienții pot, de asemenea, comanda și produsele de bază din meniu, fără a dispune
+de vreo modificare față de rețeta de bază. Implementarea trebuie să permită adăugarea de noi
+specificuri culinare din alte regiuni ale globului.
+3p. Să se testeze soluția prin crearea de minim 4 produse din familia Iprodus și afișarea, pentru fiecare,
+a prețului și a descrierii lor.
+---DECORATOR---
+
+9p. În cadrul restaurantului, clienții au la dispoziție, prin intermediul unui meniu, produsele pe care
+aceștia le pot comanda. Există și meniurile zilei care sunt formate din mai multe componente de
+tip produs. Să se implementeze arborescența care definește meniul restaurantului. Trebuie să se
+utilizeze interfata IProdus primită în cerință. Pentru fiecare produs de tip meniul zilei sau produs,
+clientul are posibilitatea sa afle care este prețul aferent produsului comandat. Dacă comanda
+meniul zilei, primește un discount de 10% din totalul prețurilor aferente produselor individuale
+din care este compus meniul zilei. Meniul restaurantului este format din mai multe categorii:
+produse aferente micului dejun, prânzului și cinei.
+3p. Să se testeze soluția prin crearea unui meniu tip restaurant format din produse individuale și
+produse tip meniul zilei
